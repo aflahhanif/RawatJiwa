@@ -9,12 +9,11 @@
 						<a class="post-img" href="{{ route('blogs.content', $datas->slug ) }}"><img src="{{ asset($datas->gambar)}}" alt="{{ $datas->judul }}" style="height: 200px"></a>
 						<div class="post-body">
 							<div class="post-category">
-								<a href="">{{ $datas->kategori->nama }}</a>
-
+								<a>{{ $datas->kategori->nama }}</a>
 							</div>
 							<h3 class="post-title"><a href="{{ route('blogs.content', $datas->slug ) }}">{{ $datas->judul }}</a></h3>
 							<ul class="post-meta">
-								<li><a href="author.html">{{ $datas->users->name }}</a></li>
+								<li><a>{{ $datas->users->name }}</a></li>
 								<li>{{ $datas->created_at }}</li>
 							</ul>
 							

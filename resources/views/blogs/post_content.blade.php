@@ -10,11 +10,11 @@
 					<div class="row">
 						<div class="col-md-10">
 							<div class="post-category">
-								<a href="category.html">{{ $datas->kategori->nama }}</a>
+								<a>{{ $datas->kategori->nama }}</a>
 							</div>
 							<h1>{{ $datas->judul }}</h1>
 							<ul class="post-meta">
-								<li><a href="author.html">{{ $datas->users->name }}</a></li>
+								<li><a>{{ $datas->users->name }}</a></li>
 								<li>{{ $datas->created_at }}</li>
 							</ul>
 						</div>
